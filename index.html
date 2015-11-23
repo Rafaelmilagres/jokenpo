@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JoKenPo - Pedra Papel e Tesoura</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="fundo"></div>
+<div class="menu">
+	<h3>JoKenPo - Dragon Ball Z</h3>
+
+	<div class="modos">
+		<div>Modos de jogo:</div>
+		<button class="invencivel">Invencivel</button>
+		<button class="aleatorio">Aleatório</button>
+	</div>
+</div>
+
+<div class="container oculto">
+	<div class="nuvem1"></div>
+	<div class="nuvem2"></div>
+
+	<div class="placar">
+		<div class="p1">
+			<div class="barra_p1">
+				<div class="life"></div>
+			</div>
+			<div class="placar_p1">
+				<span class="1"></span>
+				<span class="2"></span>
+				<span class="3"></span>
+			</div>
+		</div>
+
+		<span class="vs">Vs</span>
+
+		<div class="p2">
+			<div class="barra_p2">
+				<div class="life"></div>
+			</div>
+			<div class="placar_p2">
+				<span class="1"></span>
+				<span class="2"></span>
+				<span class="3"></span>
+			</div>
+		</div>
+	</div>
+
+
+	<aside class="opcoes aparece">
+		<div class="op rock" data-op="1">
+			<i class="fa fa-hand-rock-o botao"></i>
+		</div>
+		<div class="op paper" data-op="2">
+			<i class="fa fa-hand-paper-o botao"></i>
+		</div>
+		<div class="op scissor" data-op="3">
+			<i class="fa fa-hand-scissors-o botao"></i>
+		</div>
+		<div class="op lizard" data-op="4">
+			<i class="fa fa-hand-spock-o botao"></i>
+		</div>
+		<div class="op spock" data-op="5">
+			<i class="fa fa-hand-lizard-o botao"></i>
+		</div>
+	</aside>
+	<div class="maos_animadas">
+		<div class="resultado"></div>
+		<div class="mao1"></div>
+		<div class="mao2"></div>
+	</div>
+
+	<div class="luta">
+		
+		<div class="at_goku"></div>
+		<div class="at_vegeta"></div>
+		<div class="vegeta movimento_basico"></div>
+
+		<div class="goku movimento_basico"></div>
+
+	</div>
+
+</div>
+
+<div class="resultado_final oculto">
+	<span>Resultado</span>
+	<div class="resultado_rsp"></div>
+</div>
+
+<div class="ajuda oculto">
+	<img src="imgs/help.png">
+</div>
+
+<div class="reinicia oculto">
+	<button><a href="index.html"><i class="fa fa-refresh"></i></a></button>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

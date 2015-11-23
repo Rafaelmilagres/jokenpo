@@ -1,0 +1,452 @@
+
+/* animações para movimentos */
+
+@-webkit-keyframes movimentacao_vegeta{
+	0%{
+		background-position: 0 0;
+	}
+
+	20%{
+		background-position: -180px -3px;
+	}
+
+	40%{
+		background-position: 0 0;
+	}
+
+	60%{
+		background-position: -180px -3px;
+	}
+
+	80%{
+		background-position: 0 0;
+	}
+
+	90%{
+		background-position: -180px -3px;
+	}
+}
+
+
+@-webkit-keyframes movimentacao_goku{
+	0%{
+		background-position: -740px 0;
+	}
+
+	20%{
+		background-position: -180px 3px;
+	}
+	40%{
+		background-position: -740px 0;
+	}
+
+	60%{
+		background-position: -180px 3px;
+	}
+	80%{
+		background-position: -740px 0;
+	}
+
+	90%{
+		background-position: -180px 3px;
+	}
+}
+
+
+@keyframes movimentacao_vegeta{
+	0%{
+		background-position: 0 0;
+	}
+
+	20%{
+		background-position: -180px -3px;
+	}
+
+	40%{
+		background-position: 0 0;
+	}
+
+	60%{
+		background-position: -180px -3px;
+	}
+
+	80%{
+		background-position: 0 0;
+	}
+
+	90%{
+		background-position: -180px -3px;
+	}
+}
+
+
+@keyframes movimentacao_goku{
+	0%{
+		background-position: -740px 0;
+	}
+
+	20%{
+		background-position: -180px 3px;
+	}
+	40%{
+		background-position: -740px 0;
+	}
+
+	60%{
+		background-position: -180px 3px;
+	}
+	80%{
+		background-position: -740px 0;
+	}
+
+	90%{
+		background-position: -180px 3px;
+	}
+}
+
+/* animações para ataques básicos */
+
+@-webkit-keyframes movimento_ataque_basico_vegeta{
+	0%{
+		background-position: 0 0;
+	}
+
+	20%{
+		background-position: -180px -3px;
+	}
+
+	40%{
+		background-position: -410px -665px;
+		width: 90px;
+	}
+
+	60%{
+		background-position: -500px -660px;
+		width: 140px;
+		bottom: 20px;
+	}
+	80%{
+		background-position: 0 0;
+		width: 83px;
+	}
+	90%{
+		background-position: -180px -3px;
+		width: 83px;
+	}
+}
+
+@-webkit-keyframes ataque_vegeta{
+	0%{
+		height: 0;
+	}
+
+	20%{
+		height: 0;
+	}
+
+	40%{
+		height: 30px;
+		background-position: -400px -610px;
+		width: 90px;
+	}
+
+	60%{
+		background-position: -400px -610px;
+		bottom: 90px;
+		left: 300px;
+	}
+
+	70%{
+		bottom: 90px;
+		/*left: 600px;*/
+		left: 50%;
+	}
+	80%{
+		bottom: 90px;
+		/*right: 940px;*/
+		left: 90%;
+	}
+}
+
+
+@-webkit-keyframes movimento_ataque_basico_goku{
+	0%{
+		background-position: -740px 0;
+	}
+
+	20%{
+		background-position: -180px 3px;
+	}
+
+	40%{
+		background-position: -580px -630px;
+		width: 95px;		
+	}
+
+	60%{
+		background-position: -690px -630px;
+		width: 125px;
+	}
+
+	80%{
+		background-position: -740px 0;
+		width: 85px;
+	}
+
+	90%{
+		background-position: -180px 3px;
+		width: 85px;
+	}
+}
+
+@-webkit-keyframes ataque_goku{
+	0%{
+		height: 0;
+	}
+
+	20%{
+		height: 0;
+	}
+
+	40%{
+		height: 0;
+	}
+
+	60%{
+		height: 35px;
+		background-position: -50px -810px;
+		right: 110px;
+		width: 50px;
+	}
+
+	70%{
+		right: 50%;
+	}
+
+	80%{
+		right: 90%;
+	}
+}
+
+
+@keyframes movimento_ataque_basico_vegeta{
+	0%{
+		background-position: 0 0;
+	}
+
+	20%{
+		background-position: -180px -3px;
+	}
+
+	40%{
+		background-position: -410px -665px;
+		width: 90px;
+	}
+
+	60%{
+		background-position: -500px -660px;
+		width: 140px;
+		bottom: 20px;
+	}
+	80%{
+		background-position: 0 0;
+		width: 83px;
+	}
+	90%{
+		background-position: -180px -3px;
+		width: 83px;
+	}
+}
+
+@keyframes ataque_vegeta{
+	0%{
+		height: 0;
+	}
+
+	20%{
+		height: 0;
+	}
+
+	40%{
+		height: 30px;
+		background-position: -400px -610px;
+		width: 90px;
+	}
+
+	60%{
+		background-position: -400px -610px;
+		bottom: 90px;
+		left: 300px;
+	}
+
+	70%{
+		bottom: 90px;
+		/*left: 600px;*/
+		left: 50%;
+	}
+	80%{
+		bottom: 90px;
+		/*right: 940px;*/
+		left: 90%;
+	}
+}
+
+
+@keyframes movimento_ataque_basico_goku{
+	0%{
+		background-position: -740px 0;
+	}
+
+	20%{
+		background-position: -180px 3px;
+	}
+
+	40%{
+		background-position: -580px -630px;
+		width: 95px;		
+	}
+
+	60%{
+		background-position: -690px -630px;
+		width: 125px;
+	}
+
+	80%{
+		background-position: -740px 0;
+		width: 85px;
+	}
+
+	90%{
+		background-position: -180px 3px;
+		width: 85px;
+	}
+}
+
+@keyframes ataque_goku{
+	0%{
+		height: 0;
+	}
+
+	20%{
+		height: 0;
+	}
+
+	40%{
+		height: 0;
+	}
+
+	60%{
+		height: 35px;
+		background-position: -50px -810px;
+		right: 110px;
+		width: 50px;
+	}
+
+	70%{
+		right: 50%;
+	}
+
+	80%{
+		right: 90%;
+	}
+}
+
+
+
+/* animações para receber golpe */
+
+@-webkit-keyframes receber_golpe_vegeta{
+	0%{
+		background-position: 0 0;
+	}
+
+	20%{
+		background-position: -180px -3px;
+	}
+
+	40%{
+		background-position: 0 0;
+	}
+
+	60%{
+		background-position: -180px -3px;
+	}
+
+	80%{
+		background-position: -610px -145px;
+		width: 100px;
+		left: 30px;
+	}
+}
+
+@-webkit-keyframes receber_golpe_goku{
+	0%{
+		background-position: -740px 0;
+	}
+
+	20%{
+		background-position: -180px 3px;
+	}
+
+	40%{
+		background-position: -740px 0;
+	}
+
+	60%{
+		background-position: -180px 3px;
+	}
+
+	80%{
+		background-position: -740px -160px;
+		width: 90px;
+		right: -5px;
+	}
+}
+
+@keyframes receber_golpe_vegeta{
+	0%{
+		background-position: 0 0;
+	}
+
+	20%{
+		background-position: -180px -3px;
+	}
+
+	40%{
+		background-position: 0 0;
+	}
+
+	60%{
+		background-position: -180px -3px;
+	}
+
+	80%{
+		background-position: -610px -145px;
+		width: 100px;
+		left: 30px;
+	}
+}
+
+@keyframes receber_golpe_goku{
+	0%{
+		background-position: -740px 0;
+	}
+
+	20%{
+		background-position: -180px 3px;
+	}
+
+	40%{
+		background-position: -740px 0;
+	}
+
+	60%{
+		background-position: -180px 3px;
+	}
+
+	80%{
+		background-position: -740px -160px;
+		width: 90px;
+		right: -5px;
+	}
+}
